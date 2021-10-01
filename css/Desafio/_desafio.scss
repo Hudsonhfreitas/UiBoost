@@ -1,0 +1,41 @@
+#challenge {
+    position: relative;
+    z-index: 5;
+    padding: 12rem 9.7rem;
+    background: #FFFF;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .items {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 9rem;
+            width: 100%;
+            .item {
+                width: 100%;
+                max-width: 24.8rem;
+                h4 {
+                    line-height: 2.4rem;
+                    margin-top: 4rem;
+                }
+                p {
+                    margin-top: 1.6rem;
+                    font-size: 1.8rem;
+                    line-height: 150%;
+                    color: $neutral-400;
+                }
+            }
+        }
+        .acess {
+            margin-top: 2.4rem;
+            align-self: flex-start;
+            a {
+                font-size: 1.8rem;
+            font-weight: 700;
+                color: $secondary;
+            }
+        }
+    }
+}
