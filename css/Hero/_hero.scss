@@ -190,8 +190,10 @@
     }      
     #cloud-1, #cloud-2, #cloud-3 {
         position: absolute;
+        
     }  
     #cloud-1 {
+        
         width: 1295.52px;
         height: 392.57px;
         bottom: -7.7rem;
@@ -201,7 +203,8 @@
         animation: move 8s ease-out infinite;
     }
     #cloud-2 {
-        min-width: 1951.31px;
+        
+       width: 1951.31px;
         height: 645.03px;
         bottom: -30rem;
         left: 50%;
@@ -211,14 +214,14 @@
         animation: move 5s 2s ease-out infinite;
     }
     #cloud-3 {
-        min-width: 1994px;
+        
+        width: 2061px;
         height: 662.03px;
         bottom: -35.2rem;
         left: 50%;
         transform: translateX(-50%);
         right: 0;
         z-index: 4;
-        animation: move 9s 4s ease-out infinite;
     }
 
     @keyframes rotating {
