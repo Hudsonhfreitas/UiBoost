@@ -100,7 +100,7 @@ header nav a img {
 #hero {
   position: relative;
   padding-top: 8.3rem;
-  background: linear-gradient(169.86deg, #27272D 7.59%, rgba(39, 39, 45, 0) 68.32%), url("../../assets/stars.svg") no-repeat top;
+  background: linear-gradient(169.86deg, #27272D 7.59%, rgba(39, 39, 45, 0) 68.32%), url(https://github.com/Hudsonhfreitas/UiBoost/blob/main/assets/stars.svg) no-repeat top;
   background-size: cover;
 }
 
@@ -355,6 +355,8 @@ header nav a img {
   left: 50%;
   -webkit-transform: translateX(calc(-50% + 51px));
           transform: translateX(calc(-50% + 51px));
+  -webkit-animation: move 8s alternate infinite;
+          animation: move 8s alternate infinite;
 }
 
 #hero #cloud-2 {
@@ -366,6 +368,8 @@ header nav a img {
           transform: translateX(-50%);
   right: 0;
   z-index: 3;
+  -webkit-animation: move 5s 2s alternate infinite;
+          animation: move 5s 2s alternate infinite;
 }
 
 #hero #cloud-3 {
@@ -377,6 +381,8 @@ header nav a img {
           transform: translateX(-50%);
   right: 0;
   z-index: 4;
+  -webkit-animation: move 6s 4s linear infinite;
+          animation: move 6s 4s linear infinite;
 }
 
 @-webkit-keyframes rotating {
@@ -420,6 +426,30 @@ header nav a img {
   100% {
     -webkit-transform: rotate(-360deg);
             transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    left: 50%;
+  }
+  50% {
+    left: calc(50% + 40px);
+  }
+  100% {
+    left: 50%;
+  }
+}
+
+@keyframes move {
+  0% {
+    left: 50%;
+  }
+  50% {
+    left: calc(50% + 40px);
+  }
+  100% {
+    left: 50%;
   }
 }
 

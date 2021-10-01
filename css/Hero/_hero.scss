@@ -1,7 +1,7 @@
 #hero {
     position: relative;
     padding-top: 8.3rem;
-    background: linear-gradient(169.86deg, #27272D 7.59%, rgba(39, 39, 45, 0) 68.32%), url('../../assets/stars.svg') no-repeat top; 
+    background: linear-gradient(169.86deg, #27272D 7.59%, rgba(39, 39, 45, 0) 68.32%), url(https://github.com/Hudsonhfreitas/UiBoost/blob/main/assets/stars.svg) no-repeat top; 
     background-size: cover;
     
     .container {
@@ -193,6 +193,7 @@
         z-index: 1;
         left: 50%;
         transform: translateX(calc(-50% + 51px));
+        animation: move 8s alternate infinite;
     }
     #cloud-2 {
         min-width: 1951.31px;
@@ -202,6 +203,7 @@
         transform: translateX(-50%);
         right: 0;
         z-index: 3;
+        animation: move 5s 2s alternate infinite;
     }
     #cloud-3 {
         min-width: 1994px;
@@ -211,8 +213,8 @@
         transform: translateX(-50%);
         right: 0;
         z-index: 4;
+        animation: move 6s 4s linear infinite;
     }
-        
 
     @keyframes rotating {
         0% {
@@ -228,6 +230,17 @@
         }
         100% {
             transform: rotate(-360deg);
+        }
+    }
+    @keyframes move {
+        0% {
+            left: 50%;
+        }
+        50% {
+            left: calc(50% + 40px);
+        }
+        100% {
+            left: 50%;
         }
     }
 }
