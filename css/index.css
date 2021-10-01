@@ -289,13 +289,15 @@ header nav a img {
   position: absolute;
   width: 0px;
   height: 0px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(16, 143, 155, 0.8);
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   border-radius: 50%;
   opacity: 0;
+  -webkit-animation: planet 3s infinite alternate;
+          animation: planet 3s infinite alternate;
 }
 
 #hero .container .image .space-circles #circle-1 .ellipse span:hover, #hero .container .image .space-circles #circle-2 .ellipse span:hover, #hero .container .image .space-circles #circle-3 .ellipse span:hover {
@@ -355,8 +357,8 @@ header nav a img {
   left: 50%;
   -webkit-transform: translateX(calc(-50% + 51px));
           transform: translateX(calc(-50% + 51px));
-  -webkit-animation: move 8s alternate infinite;
-          animation: move 8s alternate infinite;
+  -webkit-animation: move 8s ease-out infinite;
+          animation: move 8s ease-out infinite;
 }
 
 #hero #cloud-2 {
@@ -368,8 +370,8 @@ header nav a img {
           transform: translateX(-50%);
   right: 0;
   z-index: 3;
-  -webkit-animation: move 5s 2s alternate infinite;
-          animation: move 5s 2s alternate infinite;
+  -webkit-animation: move 5s 2s ease-out infinite;
+          animation: move 5s 2s ease-out infinite;
 }
 
 #hero #cloud-3 {
@@ -381,8 +383,8 @@ header nav a img {
           transform: translateX(-50%);
   right: 0;
   z-index: 4;
-  -webkit-animation: move 6s 4s linear infinite;
-          animation: move 6s 4s linear infinite;
+  -webkit-animation: move 9s 4s ease-out infinite;
+          animation: move 9s 4s ease-out infinite;
 }
 
 @-webkit-keyframes rotating {
@@ -450,6 +452,22 @@ header nav a img {
   }
   100% {
     left: 50%;
+  }
+}
+
+@-webkit-keyframes planet {
+  to {
+    width: 28px;
+    height: 28px;
+    opacity: 1;
+  }
+}
+
+@keyframes planet {
+  to {
+    width: 28px;
+    height: 28px;
+    opacity: 1;
   }
 }
 
