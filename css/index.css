@@ -100,7 +100,7 @@ header nav a img {
 #hero {
   position: relative;
   padding-top: 8.3rem;
-  background: linear-gradient(169.86deg, #27272D 7.59%, rgba(39, 39, 45, 0) 68.32%), url(https://github.com/Hudsonhfreitas/UiBoost/blob/main/assets/stars.svg) no-repeat top;
+  background: linear-gradient(169.86deg, #27272D 7.59%, rgba(39, 39, 45, 0) 68.32%), url(https://raw.githubusercontent.com/Hudsonhfreitas/UiBoost/ceaa1f9ab8285c795a08a323180c3e9080c574b5/assets/stars.svg) no-repeat top;
   background-size: cover;
 }
 
