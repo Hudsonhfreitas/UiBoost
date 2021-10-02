@@ -606,6 +606,60 @@ header nav a img {
   line-height: 120%;
 }
 
+#participate {
+  background: #FFFF;
+}
+
+#participate .container {
+  max-width: 1302px;
+}
+
+#participate .container .box {
+  padding: 8rem 4.3rem 9.6rem 4.3rem;
+  background: url("../../assets/bg-porque_participar.svg") no-repeat;
+  height: 42.9rem;
+  border-radius: 0 0 16px;
+  color: #FFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#participate .container .box p {
+  margin-top: 2.4rem;
+  font-size: 18px;
+  line-height: 150%;
+  width: 100%;
+  max-width: 86.4rem;
+}
+
+#participate .container .box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8.3rem;
+}
+
+#participate .container .box ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#participate .container .box ul li p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 150%;
+  margin-left: 2.4rem;
+}
+
 body {
   background-color: #17171B;
 }
