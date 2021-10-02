@@ -1,0 +1,36 @@
+#participate {
+    background: #FFFF;
+    .container {
+        max-width: 1302px;
+        .box {
+            padding: 8rem 4.3rem 9.6rem 4.3rem;
+            background: url(https://raw.githubusercontent.com/Hudsonhfreitas/UiBoost/4d74a8e260c5122c94c96f19a676abe6dbd88d87/assets/bg-porque_participar.svg) no-repeat;
+            height: 42.9rem;
+            border-radius: 0 0 16px;
+            color: #FFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+                margin-top: 2.4rem;
+                font-size: 18px;
+                line-height: 150%;
+                width: 100%;
+                max-width: 86.4rem;
+            }
+            ul {
+                display: flex;
+                margin-top: 8.3rem;
+                li {
+                    display: flex;
+                    p {
+                        font-weight: 500;
+                        font-size: 1.8rem;
+                        line-height: 150%;
+                        margin-left: 2.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

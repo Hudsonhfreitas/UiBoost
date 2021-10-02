@@ -1,0 +1,32 @@
+header {
+    margin-top: 5rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            width: 100%;
+            max-width: 17.5rem;
+            height: 3.2rem;
+        }
+        a {
+            width: 100%;
+            max-width: 21.4rem;
+            height: 100%;
+            font-size: 1.4rem;
+            color: #FFF;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            img {
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
+}
