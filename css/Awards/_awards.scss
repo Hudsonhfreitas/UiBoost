@@ -1,0 +1,46 @@
+#awards {
+    background: #FFFF;
+    width: 100%;
+    .container {
+        max-width: 1368px;
+        .main {
+            background: url('../../assets/stars2.svg') no-repeat top, $neutral-100;
+            padding: 8.4rem 7.6rem 10.6rem 7.6rem;
+            border-radius: 16px;
+            h2 {
+                color: #FFFF;
+                text-align: center;
+                line-height: 120%;
+            }
+            .cards {
+                margin-top: 5.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .card {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    max-width: 28rem;
+                    height: 21.1rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background: rgba(39, 39, 45, 0.8);
+                    border-radius: 8px;
+                    img {
+                        width: 4.8rem;
+                        height: 4.8rem;   
+                    }
+                    h4 {
+                        margin-top: 3.6rem; 
+                        color: #FFFF; 
+                        line-height: 120%;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
