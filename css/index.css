@@ -616,7 +616,7 @@ header nav a img {
 
 #participate .container .box {
   padding: 8rem 4.3rem 9.6rem 4.3rem;
-  background: url("../../assets/bg-porque_participar.svg") no-repeat;
+  background: url(https://raw.githubusercontent.com/Hudsonhfreitas/UiBoost/4d74a8e260c5122c94c96f19a676abe6dbd88d87/assets/bg-porque_participar.svg) no-repeat;
   height: 42.9rem;
   border-radius: 0 0 16px;
   color: #FFFF;
