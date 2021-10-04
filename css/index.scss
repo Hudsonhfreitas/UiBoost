@@ -7,11 +7,12 @@
 @import './Challenge/challenge';
 @import './Awards/awards';
 @import './Participate/participate';
+@import './About/about';
+@import './Footer/footer';
 
 body {
     background-color: $neutral-100;
 }
-
 .container {
     width: 100%;
     max-width: 1240px;

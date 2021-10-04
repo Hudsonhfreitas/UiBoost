@@ -1,0 +1,36 @@
+#about {
+    background: #FFFF;
+    padding: 10.4rem 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .item {
+            width: 100%;
+            max-width: 49.9rem;
+            img {
+                width: 32px;
+                height: 48px;
+            }
+            h2 {
+                margin-top: 2.4rem;
+            }
+            p, span {
+                font-size: 1.8rem;
+                line-height: 150%;
+                margin-top: 2.4rem;
+                color: $neutral-400;
+            }
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-top: 2.8rem;
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 1.6rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+footer {
+    background: #FFFF;
+    .container {
+        .top {
+            padding: 4.9rem 0;
+            border-top: 1.5px solid rgba(115, 115, 128, 0.1);
+            border-bottom: 1.5px solid rgba(115, 115, 128, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left, .right {
+                width: 100%;
+                max-width: 49.9rem;
+            }
+            .right {
+                button {
+                    width: 100%;
+                    max-width: 22.5rem;
+                    padding: 1.8rem;
+                    background: $neutral-500;
+                    border: none;
+                    font-weight: 700;
+                    font-size: 1.8rem;
+                    line-height: 150%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
+        }
+        .bottom {
+            padding: 5.6rem  0 8.5rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .organizedBy {
+                width: 100%;
+                max-width: 48.7rem;
+                img {
+                    width: 100%;
+                    &:nth-child(1) {
+                        max-width: 14.4rem;
+                    }
+                    &:nth-child(2) {
+                        max-width: 15.1rem;
+                    }
+                    &:nth-child(3) {
+                        max-width: 8.1rem;
+                    }
+                }
+            }
+            .supportedBy {
+                width: 100%;
+                max-width: 49.5rem;
+                img {
+                    width: 100%;
+                    &:nth-child(1) {
+                        max-width: 5.19rem;
+                    }
+                    &:nth-child(2) {
+                        max-width: 18.5rem;
+                    }
+                    &:nth-child(3) {
+                        max-width: 14.5rem;
+                    }
+                }
+            }
+            .organizedBy, .supportedBy {
+                .images {
+                    margin-top: 4.1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+    #clouds-footer {
+        position: relative;
+        background: #FFFF;
+        img {
+            width: 100%;
+        }
+        span {
+            color: $neutral-400;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 150%;
+            position: absolute;
+            bottom: 4.8rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            img {
+                width: 20px;
+                height: 18.33px;
+                margin-left: 0.8rem;
+            }
+        }
+        
+    }
+}

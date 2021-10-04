@@ -41,11 +41,13 @@ h2 {
 h3 {
   font-size: 2.4rem;
   font-weight: 600;
+  color: #27272D;
 }
 
 h4 {
   font-size: 2.0rem;
   font-weight: 600;
+  color: #27272D;
 }
 
 header {
@@ -658,6 +660,210 @@ header nav a img {
   font-size: 1.8rem;
   line-height: 150%;
   margin-left: 2.4rem;
+}
+
+#about {
+  background: #FFFF;
+  padding: 10.4rem 0;
+}
+
+#about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#about .container .item {
+  width: 100%;
+  max-width: 49.9rem;
+}
+
+#about .container .item img {
+  width: 32px;
+  height: 48px;
+}
+
+#about .container .item h2 {
+  margin-top: 2.4rem;
+}
+
+#about .container .item p, #about .container .item span {
+  font-size: 1.8rem;
+  line-height: 150%;
+  margin-top: 2.4rem;
+  color: #737380;
+}
+
+#about .container .item span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 2.8rem;
+}
+
+#about .container .item span img {
+  width: 20px;
+  height: 20px;
+  margin-right: 1.6rem;
+}
+
+footer {
+  background: #FFFF;
+}
+
+footer .container .top {
+  padding: 4.9rem 0;
+  border-top: 1.5px solid rgba(115, 115, 128, 0.1);
+  border-bottom: 1.5px solid rgba(115, 115, 128, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .top .left, footer .container .top .right {
+  width: 100%;
+  max-width: 49.9rem;
+}
+
+footer .container .top .right button {
+  width: 100%;
+  max-width: 22.5rem;
+  padding: 1.8rem;
+  background: #F6F6F9;
+  border: none;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .top .right button img {
+  width: 25px;
+  height: 25px;
+}
+
+footer .container .bottom {
+  padding: 5.6rem  0 8.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .bottom .organizedBy {
+  width: 100%;
+  max-width: 48.7rem;
+}
+
+footer .container .bottom .organizedBy img {
+  width: 100%;
+}
+
+footer .container .bottom .organizedBy img:nth-child(1) {
+  max-width: 14.4rem;
+}
+
+footer .container .bottom .organizedBy img:nth-child(2) {
+  max-width: 15.1rem;
+}
+
+footer .container .bottom .organizedBy img:nth-child(3) {
+  max-width: 8.1rem;
+}
+
+footer .container .bottom .supportedBy {
+  width: 100%;
+  max-width: 49.5rem;
+}
+
+footer .container .bottom .supportedBy img {
+  width: 100%;
+}
+
+footer .container .bottom .supportedBy img:nth-child(1) {
+  max-width: 5.19rem;
+}
+
+footer .container .bottom .supportedBy img:nth-child(2) {
+  max-width: 18.5rem;
+}
+
+footer .container .bottom .supportedBy img:nth-child(3) {
+  max-width: 14.5rem;
+}
+
+footer .container .bottom .organizedBy .images, footer .container .bottom .supportedBy .images {
+  margin-top: 4.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer #clouds-footer {
+  position: relative;
+  background: #FFFF;
+}
+
+footer #clouds-footer img {
+  width: 100%;
+}
+
+footer #clouds-footer span {
+  color: #737380;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 150%;
+  position: absolute;
+  bottom: 4.8rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #clouds-footer span img {
+  width: 20px;
+  height: 18.33px;
+  margin-left: 0.8rem;
 }
 
 body {
