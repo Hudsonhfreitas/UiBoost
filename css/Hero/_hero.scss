@@ -2,7 +2,6 @@
     position: relative;
     padding-top: 8.3rem;
     background: linear-gradient(169.86deg, #27272D 7.59%, rgba(39, 39, 45, 0) 68.32%), url(https://raw.githubusercontent.com/Hudsonhfreitas/UiBoost/ceaa1f9ab8285c795a08a323180c3e9080c574b5/assets/stars.svg) no-repeat; 
-    
     .container {
         margin-top: 8.3rem;
         display: flex;
@@ -11,7 +10,6 @@
             z-index: 10;
             width: 100%;
             max-width: 71.8rem;
-            height: 50.3rem;
             .challenge {
                 font-size: 1.8rem;
                 font-family: 'Archivo', sans-serif;
@@ -87,14 +85,12 @@
                 position: absolute;
                 width: 100%;
                 max-width: 37rem;
-                height: 20.3rem;
                 top: 31.7rem;
                 right: 0;
                 text-align: right;
                 display: flex;
                 flex-direction: column;
                 .date {
-                    position: relative;
                     background: linear-gradient(268.59deg, #01D4E4 12.6%, rgba(1, 148, 255, 0) 98.81%);
                     opacity: 0.9;
                     padding: 0.1rem 2.2rem 3.8rem 0;
@@ -192,8 +188,7 @@
         position: absolute;
         
     }  
-    #cloud-1 {
-        
+    #cloud-1 { 
         width: 1295.52px;
         height: 392.57px;
         bottom: -7.7rem;
@@ -223,39 +218,126 @@
         right: 0;
         z-index: 4;
     }
+    @media screen and (max-width: 1300px) {
+        .container {
+            justify-content: space-between;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        padding-top: 9.6rem;
+        .container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .text {
+                text-align: center;
+                h1 {
+                    margin-top: 1.6rem;
+                }
+                p {
+                    margin-top: 3.2rem;
+                }
+                .briefing {
+                    margin-top: 5.6rem;
+                    max-width: unset;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .enjoy, 
+                    .colors {
+                        display: none;
+                    }
+                    .btn-white {
+                        max-width: 24.9rem;
+                        margin-right: 0;
+                        
+                    }
+                }
+            }
+            .image {
+                margin-top: 7.5rem;
+                margin-left: 0;
+                max-width: 100%;
+                height: 67.39rem;
+                display: flex;
+                .rocket {
+                    max-width: 43rem;
+                    height: 100%;
+                }
+                .info {
+                    width: 37rem;
+                    top: 26.5rem;
+                    right: 8rem;
+                    .date {
+                        padding: 2.015rem 3.2rem 1.885rem 0;
+                    }
+                    img {
+                        margin-top: 5.2rem;
+                    }
+                }
+                .space-circles {
+                    bottom: -14rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+        #cloud-1 {
+            height: 331.41px;
+            width: unset;
+            left: -14rem;
+            transform: unset;
+            bottom: -16rem;
+            animation: unset;
+        }
+        #cloud-2 {
+            height: 545px;
+            bottom: -34rem;
+            left: -63rem;
+            transform: unset;
+            animation: unset;
+            color: white;
+        }
+        #cloud-3 {
+            height: 559px;
+            left: -68rem;
+            bottom: -39rem;
+            transform: unset;
+        }
+    }
+}
 
-    @keyframes rotating {
-        0% {
-            transform: rotate(0deg);
-        }
-        100% {
-            transform: rotate(360deg);
-        }
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
     }
-    @keyframes rotating-reverse {
-        0% {
-            transform: rotate(0deg);
-        }
-        100% {
-            transform: rotate(-360deg);
-        }
+    100% {
+        transform: rotate(360deg);
     }
-    @keyframes move {
-        0% {
-            left: 50%;
-        }
-        50% {
-            left: calc(50% + 40px);
-        }
-        100% {
-            left: 50%;
-        }
+}
+@keyframes rotating-reverse {
+    0% {
+        transform: rotate(0deg);
     }
-    @keyframes planet {
-        to {
-            width: 28px;
-            height: 28px;
-            opacity: 1;
-        }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes move {
+    0% {
+        left: 50%;
+    }
+    50% {
+        left: calc(50% + 40px);
+    }
+    100% {
+        left: 50%;
+    }
+}
+@keyframes planet {
+    to {
+        width: 28px;
+        height: 28px;
+        opacity: 1;
     }
 }

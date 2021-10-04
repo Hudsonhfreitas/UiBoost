@@ -6,6 +6,9 @@ h1 {
     font-weight: 900;
     color: #FFFFFF;
     line-height: 120%;
+    @media screen and (max-width: 991px) {
+        font-size: 4.8rem;
+    }
 }
 h2 {
     font-size: 3.2rem;
@@ -14,6 +17,7 @@ h2 {
 h3 {
     font-size: 2.4rem;
     font-weight: 600;
+    line-height: 120%;
     color: $neutral-300;
 }
 h4 {
