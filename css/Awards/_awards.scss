@@ -14,14 +14,15 @@
                 line-height: 120%;
             }
             .cards {
-                margin-top: 5.5rem;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                flex-wrap: wrap;
                 .card {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    margin-top: 5.5rem;
                     width: 100%;
                     max-width: 28rem;
                     height: 21.1rem;
@@ -39,6 +40,23 @@
                         color: #FFFF; 
                         line-height: 120%;
                         
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .container {
+            .main {
+                .cards {
+                    gap: 2.4rem;
+                    margin-top: 8rem;
+                    justify-content: center;
+                    .card {
+                        margin-top: 0;
+                       h4 {
+                        margin-top: 3.2rem;
+                       }
                     }
                 }
             }

@@ -480,13 +480,16 @@ header nav a img {
     display: flex;
   }
   #hero .container .image .rocket {
-    max-width: 43rem;
+    width: 100%;
     height: 100%;
+    min-width: 100%;
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
   }
   #hero .container .image .info {
     width: 37rem;
     top: 26.5rem;
-    right: 8rem;
+    right: calc(8rem - 30px);
   }
   #hero .container .image .info .date {
     padding: 2.015rem 3.2rem 1.885rem 0;
@@ -616,7 +619,7 @@ header nav a img {
 #challenge {
   position: relative;
   z-index: 5;
-  padding: 12rem 9.7rem;
+  padding: 9.6rem 0;
   background: #FFFF;
 }
 
@@ -637,9 +640,9 @@ header nav a img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -680,9 +683,18 @@ header nav a img {
 
 @media screen and (max-width: 991px) {
   #challenge {
-    padding: 0 9.7rem;
+    padding: 0;
     padding-bottom: 12rem;
-    margin-top: 19rem;
+    margin-top: 15rem;
+  }
+  #challenge .container .items {
+    margin-top: 0;
+    padding: 0 4.8rem;
+  }
+  #challenge .container .items .item {
+    max-width: 24.8rem;
+    margin-top: 8rem;
+    text-align: center;
   }
 }
 
@@ -709,7 +721,6 @@ header nav a img {
 }
 
 #awards .container .main .cards {
-  margin-top: 5.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -719,6 +730,8 @@ header nav a img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #awards .container .main .cards .card {
@@ -731,6 +744,7 @@ header nav a img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 5.5rem;
   width: 100%;
   max-width: 28rem;
   height: 21.1rem;
@@ -753,6 +767,22 @@ header nav a img {
   margin-top: 3.6rem;
   color: #FFFF;
   line-height: 120%;
+}
+
+@media screen and (max-width: 768px) {
+  #awards .container .main .cards {
+    gap: 2.4rem;
+    margin-top: 8rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #awards .container .main .cards .card {
+    margin-top: 0;
+  }
+  #awards .container .main .cards .card h4 {
+    margin-top: 3.2rem;
+  }
 }
 
 #participate {
