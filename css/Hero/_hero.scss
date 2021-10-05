@@ -40,9 +40,9 @@
                 opacity: 1;
                 z-index: 9;
                 .enjoy {
-                        position: absolute;
-                        top: 8rem;
-                        left: 3.2rem;    
+                    position: absolute;
+                    top: 8rem;
+                    left: 3.2rem;    
                 }
                 .btn-white {
                     width: 100%;
@@ -342,6 +342,8 @@
                     bottom: 20rem;
                     width: 682px;
                     height: 682px;
+                    left: -75%;
+                    transform: unset;
                     #circle-1 {
                         img {
                             width: 682px;
@@ -378,6 +380,8 @@
                     justify-content: center;
                     top: unset;
                     bottom: 8.5rem;
+                    left: 50%;
+                    transform: translateX(-50%);
                     .date {
                         background: none;
                         border-radius: 0;
@@ -400,6 +404,27 @@
                 }
             }
         }
+        #cloud-1 {
+           bottom: -20rem;
+           left: -19rem;
+        }
+        #cloud-2 {
+            bottom: -38rem;
+        }
+        #cloud-3 {
+            bottom: -42rem;
+        }
+    }
+    @media screen and (max-width: 480px){
+        #cloud-1 {
+            left: -24rem;
+         }
+         #cloud-2 {
+             left: -68rem;
+         }
+         #cloud-3 {
+             left: -74rem;
+         }
     }
 }
 

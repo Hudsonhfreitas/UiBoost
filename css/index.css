@@ -582,6 +582,9 @@ header nav a img {
     bottom: 20rem;
     width: 682px;
     height: 682px;
+    left: -75%;
+    -webkit-transform: unset;
+            transform: unset;
   }
   #hero .container .image .space-circles #circle-1 img {
     width: 682px;
@@ -625,6 +628,9 @@ header nav a img {
             justify-content: center;
     top: unset;
     bottom: 8.5rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   #hero .container .image .info .date {
     background: none;
@@ -646,6 +652,28 @@ header nav a img {
   }
   #hero .container .image .info span .strong {
     font-weight: 700;
+  }
+  #hero #cloud-1 {
+    bottom: -20rem;
+    left: -19rem;
+  }
+  #hero #cloud-2 {
+    bottom: -38rem;
+  }
+  #hero #cloud-3 {
+    bottom: -42rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #hero #cloud-1 {
+    left: -24rem;
+  }
+  #hero #cloud-2 {
+    left: -68rem;
+  }
+  #hero #cloud-3 {
+    left: -74rem;
   }
 }
 
@@ -821,6 +849,32 @@ header nav a img {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #challenge {
+    margin-top: 18rem;
+    padding-bottom: 7.2rem;
+  }
+  #challenge .container h2 {
+    font-size: 2.4rem;
+    max-width: 14.4rem;
+    text-align: center;
+  }
+  #challenge .container .items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #challenge .container .items .item {
+    margin-top: 5.6rem;
+  }
+  #challenge .container .items .item h4 {
+    margin-top: 2.4rem;
+  }
+  #challenge .container .items .item p {
+    margin-top: .8rem;
+  }
+}
+
 #awards {
   background: #FFFF;
   width: 100%;
@@ -905,6 +959,44 @@ header nav a img {
   }
   #awards .container .main .cards .card h4 {
     margin-top: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #awards .container {
+    z-index: 2;
+    position: relative;
+    padding: 0 19px;
+  }
+  #awards .container .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4.8rem 2.9rem 8.6rem 2.8rem;
+  }
+  #awards .container .main h2 {
+    font-size: 2.4rem;
+    width: 100%;
+    max-width: 24.8rem;
+  }
+  #awards .container .main h2 br {
+    display: none;
+  }
+  #awards .container .main .cards {
+    margin-top: 4rem;
+  }
+  #awards .container .main .cards .card {
+    height: 19rem;
+  }
+  #awards .container .main .cards .card h4 {
+    margin-top: 2.4rem;
   }
 }
 
@@ -1015,6 +1107,42 @@ header nav a img {
   }
 }
 
+@media screen and (max-width: 560px) {
+  #participate .container .box {
+    height: 100%;
+    width: 100%;
+    padding: 5.7rem 4.3rem;
+    background: url("../../assets/circle-mobile.svg"), #5935ff;
+    background-size: cover;
+    margin-top: -10px;
+    z-index: 1;
+  }
+  #participate .container .box h2 {
+    font-size: 2.4rem;
+  }
+  #participate .container .box p {
+    font-size: 1.6rem;
+  }
+  #participate .container .box ul {
+    margin-top: 4.1rem;
+  }
+  #participate .container .box ul li {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #participate .container .box ul li:not(:first-child) {
+    margin-top: 2.3rem;
+  }
+  #participate .container .box ul li p {
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: 1.6rem;
+    margin-top: 0;
+  }
+}
+
 #about {
   background: #FFFF;
   padding: 10.4rem 0;
@@ -1096,6 +1224,28 @@ header nav a img {
   }
   #about .container .item span img {
     margin-right: 1.85rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #about {
+    padding: 7.2rem 0;
+  }
+  #about .container .item h2 {
+    font-size: 2.4rem;
+  }
+  #about .container .item p {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+  #about .container .item span {
+    font-size: 1.6rem;
+  }
+  #about .container .item span img {
+    margin-right: 1.1rem;
+  }
+  #about .container .item:not(:first-child) {
+    margin-top: 5.6rem;
   }
 }
 
@@ -1299,6 +1449,37 @@ footer #clouds-footer span img {
   }
   footer #clouds-footer > img {
     left: -500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer .container .top {
+    padding: 4.8rem 0;
+  }
+  footer .container .top .right {
+    margin-top: 2.1rem;
+  }
+  footer .container .top .right button {
+    width: 22.5rem;
+    font-size: 1.6rem;
+    padding: 1.6rem 3.4rem;
+  }
+  footer .container .top .right button img {
+    width: 20px;
+    height: 20px;
+  }
+  footer .container .bottom {
+    padding: 5.6rem 0;
+  }
+  footer .container .bottom .organizedBy .images, footer .container .bottom .supportedBy .images {
+    margin-top: 3.8rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .bottom .organizedBy .images img:not(:first-child), footer .container .bottom .supportedBy .images img:not(:first-child) {
+    margin-top: 5.6rem;
   }
 }
 

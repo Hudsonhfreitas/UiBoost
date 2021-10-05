@@ -53,4 +53,27 @@
             }
         }
     }
+    @media screen and (max-width: 600px) {
+        padding: 7.2rem 0;
+        .container {
+            .item {
+                h2 {
+                    font-size: 2.4rem;
+                }
+                p {
+                    font-size: 1.6rem;
+                    margin-top: 2rem;
+                }
+                span {
+                    font-size: 1.6rem;
+                    img {
+                        margin-right: 1.1rem;
+                    }
+                }
+                &:not(:first-child) {
+                    margin-top: 5.6rem;
+                }
+            }
+        }
+    }
 }
