@@ -186,7 +186,6 @@
     }      
     #cloud-1, #cloud-2, #cloud-3 {
         position: absolute;
-        
     }  
     #cloud-1 { 
         width: 1295.52px;
@@ -198,8 +197,7 @@
         animation: move 8s ease-out infinite;
     }
     #cloud-2 {
-        
-       width: 1951.31px;
+        width: 1951.31px;
         height: 645.03px;
         bottom: -30rem;
         left: 50%;
@@ -209,7 +207,6 @@
         animation: move 5s 2s ease-out infinite;
     }
     #cloud-3 {
-        
         width: 2061px;
         height: 662.03px;
         bottom: -35.2rem;
@@ -304,6 +301,104 @@
             left: -68rem;
             bottom: -39rem;
             transform: unset;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        background-position: center;
+        .container {
+            margin-top: 7.2rem;
+            .text {
+                .challenge {
+                    font-size: 1.6rem;
+                }
+                h1 {
+                    font-size: 3rem;
+                    br {
+                        display: none;
+                    }
+                }
+                p {
+                    margin-top: 2.4rem;
+                    font-size: 1.8rem;
+                    br {
+                        display: none;
+                    }
+                }
+                .briefing {
+                    margin-top: 4rem;
+                    .btn-white {
+                        max-width: 22.3rem;
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+            .image {
+                margin-top: 6rem;
+                max-width: 296px;
+                .space-circles {
+                    bottom: 20rem;
+                    width: 682px;
+                    height: 682px;
+                    #circle-1 {
+                        img {
+                            width: 682px;
+                             height: 682px;
+                        }
+                    }
+                    #circle-2 {
+                        top: 16.4rem;
+                        left: 16.4rem;
+                        img {
+                            width: 430.33px;
+                            height: 430.33px;
+                        }
+                    }
+                    #circle-3 {
+                        top: 24.7rem;
+                        left: 24.7rem;
+                        img {
+                            width: 234.94px;
+                            height: 234.94px;
+                        }
+                    }
+                }
+                .rocket {
+                    width: 100%;
+                    height: 463px;
+                }
+                .info {
+                    width: 100%;
+                    max-width: 22.2rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    top: unset;
+                    bottom: 8.5rem;
+                    .date {
+                        background: none;
+                        border-radius: 0;
+                        padding: 0;
+                    }
+                    img {
+                        margin-top: 4.2rem;
+                        align-self: center;
+                    }
+                    span {
+                        text-align: center;
+                        font-size: 1.6rem;
+                        br {
+                            display: none;
+                        }
+                        .strong {
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -18,6 +18,9 @@ body {
     max-width: 1255px;
     margin: 0 auto;
     padding: 0 30px;
+    @media screen and (max-width: 600px) {
+        padding: 0 19px;
+    }
 }
 
 

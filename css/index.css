@@ -24,12 +24,6 @@ html {
   }
 }
 
-@media screen and (max-width: 480px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
 html, body {
   overflow-x: hidden;
 }
@@ -125,6 +119,21 @@ header nav a {
 header nav a img {
   height: 20px;
   width: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  header nav {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  header nav a {
+    width: unset;
+    max-width: inherit;
+  }
+  header nav a span {
+    display: none;
+  }
 }
 
 #hero {
@@ -532,6 +541,114 @@ header nav a img {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #hero {
+    background-position: center;
+  }
+  #hero .container {
+    margin-top: 7.2rem;
+  }
+  #hero .container .text .challenge {
+    font-size: 1.6rem;
+  }
+  #hero .container .text h1 {
+    font-size: 3rem;
+  }
+  #hero .container .text h1 br {
+    display: none;
+  }
+  #hero .container .text p {
+    margin-top: 2.4rem;
+    font-size: 1.8rem;
+  }
+  #hero .container .text p br {
+    display: none;
+  }
+  #hero .container .text .briefing {
+    margin-top: 4rem;
+  }
+  #hero .container .text .briefing .btn-white {
+    max-width: 22.3rem;
+  }
+  #hero .container .text .briefing .btn-white img {
+    width: 20px;
+    height: 20px;
+  }
+  #hero .container .image {
+    margin-top: 6rem;
+    max-width: 296px;
+  }
+  #hero .container .image .space-circles {
+    bottom: 20rem;
+    width: 682px;
+    height: 682px;
+  }
+  #hero .container .image .space-circles #circle-1 img {
+    width: 682px;
+    height: 682px;
+  }
+  #hero .container .image .space-circles #circle-2 {
+    top: 16.4rem;
+    left: 16.4rem;
+  }
+  #hero .container .image .space-circles #circle-2 img {
+    width: 430.33px;
+    height: 430.33px;
+  }
+  #hero .container .image .space-circles #circle-3 {
+    top: 24.7rem;
+    left: 24.7rem;
+  }
+  #hero .container .image .space-circles #circle-3 img {
+    width: 234.94px;
+    height: 234.94px;
+  }
+  #hero .container .image .rocket {
+    width: 100%;
+    height: 463px;
+  }
+  #hero .container .image .info {
+    width: 100%;
+    max-width: 22.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: unset;
+    bottom: 8.5rem;
+  }
+  #hero .container .image .info .date {
+    background: none;
+    border-radius: 0;
+    padding: 0;
+  }
+  #hero .container .image .info img {
+    margin-top: 4.2rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #hero .container .image .info span {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  #hero .container .image .info span br {
+    display: none;
+  }
+  #hero .container .image .info span .strong {
+    font-weight: 700;
+  }
+}
+
 @-webkit-keyframes rotating {
   0% {
     -webkit-transform: rotate(0deg);
@@ -695,6 +812,12 @@ header nav a img {
     max-width: 24.8rem;
     margin-top: 8rem;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #challenge .container .items {
+    padding: 0;
   }
 }
 
@@ -1188,5 +1311,11 @@ body {
   max-width: 1255px;
   margin: 0 auto;
   padding: 0 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 19px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

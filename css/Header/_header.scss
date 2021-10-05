@@ -29,4 +29,17 @@ header {
             }
         }
     }
+    @media screen and (max-width: 600px) {
+        nav {
+            align-items: flex-end;
+            a {
+                width: unset;
+                max-width: inherit;
+                span {
+                    display: none;
+                }
+            }
+        }
+        
+    }
 }
