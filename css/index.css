@@ -849,6 +849,49 @@ header nav a img {
   margin-left: 2.4rem;
 }
 
+@media screen and (max-width: 991px) {
+  #participate .container .box {
+    background-size: cover;
+    background-position: top;
+    height: 70.4rem;
+    text-align: center;
+    padding: 8rem 4.1rem 8rem 4.1rem;
+  }
+  #participate .container .box ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 6.4rem;
+    text-align: center;
+  }
+  #participate .container .box ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    max-width: 34.5rem;
+  }
+  #participate .container .box ul li:not(:first-child) {
+    margin-top: 4.8rem;
+  }
+  #participate .container .box ul li img {
+    width: 15px;
+    height: 12px;
+  }
+  #participate .container .box ul li p {
+    margin-left: 0;
+    margin-top: 1.6rem;
+  }
+}
+
 #about {
   background: #FFFF;
   padding: 10.4rem 0;
@@ -901,6 +944,36 @@ header nav a img {
   width: 20px;
   height: 20px;
   margin-right: 1.6rem;
+}
+
+@media screen and (max-width: 991px) {
+  #about {
+    padding: 9.6rem 12.9rem;
+  }
+  #about .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about .container .item {
+    text-align: center;
+  }
+  #about .container .item:not(:first-child) {
+    margin-top: 6.4rem;
+  }
+  #about .container .item span {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2.4rem;
+  }
+  #about .container .item span img {
+    margin-right: 1.85rem;
+  }
 }
 
 footer {
@@ -1051,6 +1124,59 @@ footer #clouds-footer span img {
   width: 20px;
   height: 18.33px;
   margin-left: 0.8rem;
+}
+
+@media screen and (max-width: 1300px) {
+  footer #clouds-footer {
+    position: relative;
+    height: 50.3rem;
+  }
+  footer #clouds-footer > img {
+    min-width: 1920px;
+    left: -400px;
+    position: absolute;
+    top: 0;
+  }
+  footer #clouds-footer span {
+    bottom: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  footer .container .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 6.4rem 0;
+  }
+  footer .container .top .left, footer .container .top .right {
+    width: unset;
+    max-width: unset;
+  }
+  footer .container .top .right {
+    margin-top: 3.2rem;
+  }
+  footer .container .bottom {
+    padding: 7.1rem  0 7.2rem 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  footer .container .bottom .supportedBy {
+    margin-top: 7.415rem;
+  }
+  footer #clouds-footer > img {
+    left: -500px;
+  }
 }
 
 body {

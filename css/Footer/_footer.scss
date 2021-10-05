@@ -102,6 +102,53 @@ footer {
                 margin-left: 0.8rem;
             }
         }
-        
+    }
+    @media screen and (max-width: 1300px) {
+        #clouds-footer {
+            position: relative;
+            height: 50.3rem;
+            & > img {
+                min-width: 1920px;
+                left: -400px;
+                position: absolute;
+                top: 0;
+            }
+            span {
+                bottom: 3.2rem;
+            }
+        }
+    }
+    
+    
+    @media screen and (max-width: 991px) {
+        .container {
+            .top {
+                flex-direction: column;
+                justify-content: center;
+                padding: 6.4rem 0;
+                .left, .right {
+                    width: unset;
+                    max-width: unset;
+                }
+                .right {
+                    margin-top: 3.2rem;
+                }
+            }
+            .bottom {
+                padding: 7.1rem  0 7.2rem 0;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                .supportedBy {
+                    margin-top: 7.415rem;
+                }
+            }
+        }
+        #clouds-footer {
+            & > img {
+                left: -500px;
+            }
+            
+        }
     }
 }

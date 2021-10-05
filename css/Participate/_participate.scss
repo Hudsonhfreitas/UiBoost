@@ -37,4 +37,38 @@
             }
         }
     }
+    @media screen and (max-width: 991px) {
+        .container {
+            .box {
+                background-size: cover;
+                background-position: top;
+                height: 70.4rem;
+                text-align: center;
+                padding: 8rem 4.1rem 8rem 4.1rem;
+                ul {
+                    flex-direction: column;
+                    margin-top: 6.4rem;
+                    text-align: center;
+                    li {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        max-width: 34.5rem;
+                        &:not(:first-child) {
+                            margin-top: 4.8rem;
+                        }
+                        img {
+                            width: 15px;
+                            height: 12px;
+                        }
+                        p {
+                            margin-left: 0;
+                            margin-top: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
