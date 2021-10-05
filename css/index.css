@@ -1179,6 +1179,11 @@ header nav a img {
   color: #737380;
 }
 
+#about .container .item a {
+  color: #5935FF;
+  font-weight: 500;
+}
+
 #about .container .item span {
   display: -webkit-box;
   display: -ms-flexbox;
