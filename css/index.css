@@ -1434,6 +1434,9 @@ footer #clouds-footer span img {
   footer .container .top .right {
     margin-top: 3.2rem;
   }
+  footer .container .top .right button {
+    width: 22.5rem;
+  }
   footer .container .bottom {
     padding: 7.1rem  0 7.2rem 0;
     -webkit-box-orient: vertical;
