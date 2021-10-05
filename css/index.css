@@ -636,6 +636,7 @@ header nav a img {
     background: none;
     border-radius: 0;
     padding: 0;
+    text-align: center;
   }
   #hero .container .image .info img {
     margin-top: 4.2rem;
