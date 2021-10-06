@@ -1113,7 +1113,7 @@ header nav a img {
     height: 100%;
     width: 100%;
     padding: 5.7rem 4.3rem;
-    background: url("../../assets/circle-mobile.svg"), #5935ff;
+    background: url(https://raw.githubusercontent.com/Hudsonhfreitas/UiBoost/4514815e89aaf38688466d1459a0390df90f0419/assets/circle-mobile.svg), #5935ff;
     background-size: cover;
     margin-top: -10px;
     z-index: 1;
